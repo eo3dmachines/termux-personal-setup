@@ -35,7 +35,7 @@ echo "
      "
 echo
 
-update.sh
+sh update.sh
 
 sleep 1
 rm -rf ~/termux-personal-setup
