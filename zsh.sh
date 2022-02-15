@@ -5,8 +5,7 @@
 echo Installing zsh
 echo
 pkg install zsh git
-zsh
-chsh -s zsh
+
 
 
 # Installing oh-my-zsh
@@ -39,3 +38,7 @@ git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM
 
 echo 4. zsh-syntax-highlighting (place in last)
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
+
+zsh
+chsh -s zsh
