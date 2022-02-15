@@ -35,8 +35,6 @@ echo "
      "
 echo
 
-sleep 3
-cd $HOME
+sleep 1
 rm -rf ~/termux-personal-setup
-cd -
 exit
