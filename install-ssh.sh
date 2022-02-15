@@ -39,9 +39,5 @@ sleep 1
 rm -rf ~/termux-personal-setup
 
 
-# check termux update && upgrade
-echo Checking update 'for' Termux 
-pkg update && pkg upgrade
-echo 
 
 exit
