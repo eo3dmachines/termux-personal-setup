@@ -1,1 +1,5 @@
-# demo
+# Termux Setup
+
+-Update Termux
+-SSH
+
