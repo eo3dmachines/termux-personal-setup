@@ -2,7 +2,6 @@
 # How to SSH using termux
 
 # update termux
-sh update.sh
 ./update.sh
 
 # Install OpenSSH:
@@ -38,9 +37,3 @@ echo "
      ex. ssh u0_a254@192.168.100.8 -p 8022
      "
 echo
-
-sleep 1
-rm -rf ~/termux-personal-setup
-
-
-exit
