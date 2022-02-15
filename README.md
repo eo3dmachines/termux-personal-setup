@@ -1,5 +1,5 @@
 # Termux Setup
 
--Update Termux
--SSH
+Update Termux
+SSH
 
