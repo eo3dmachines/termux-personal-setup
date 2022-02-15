@@ -1,27 +1,28 @@
 
 # How to SSH using termux
 
-#Install OpenSSH:
+# Install OpenSSH:
 echo Installing OpenSSH
 echo
 pkg install openssh
 echo
 
+# change password
 echo Enter SSH password:
-echo
 passwd
 echo
 
+# check username
 echo Checking username:
-echo
 whoami
 echo
 
-echo "Find the host by running this in Termux: (Look for something like inet addr:192.168.100.8)"
+# checking host (Look for something like inet addr:192.168.100.8)
+echo Checking HOST:
 ifconfig
 echo
 
-echo Starting SSH server:
+echo "### Starting SSH server ###"
 sshd
 echo
 
