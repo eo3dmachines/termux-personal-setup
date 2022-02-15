@@ -13,16 +13,16 @@ passwd
 echo
 
 # check username
-echo Checking username:
+echo "*** Checking username: ***"
 whoami
 echo
 
 # checking host (Look for something like inet addr:192.168.100.8)
-echo Checking HOST:
+echo  "*** Checking HOST: ***"
 ifconfig
 echo
 
-echo "### Starting SSH server ###"
+echo "*** Starting SSH server ***"
 sshd
 echo
 
