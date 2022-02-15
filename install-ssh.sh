@@ -37,3 +37,5 @@ echo "
      ex. ssh u0_a254@192.168.100.8 -p 8022
      "
 echo
+
+./exit.sh
