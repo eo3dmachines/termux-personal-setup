@@ -35,6 +35,8 @@ echo "
      "
 echo
 
+sleep 3
 cd $HOME
+sleep 2
 rm -rf ~/termux-personal-setup
-
+speep 1
