@@ -35,6 +35,6 @@ echo "
      "
 echo
 
-cd ~
+cd $HOME
 rm -rf ~/termux-personal-setup
 
