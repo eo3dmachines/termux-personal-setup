@@ -38,6 +38,6 @@ echo
 sleep 1
 rm -rf ~/termux-personal-setup
 
-
+update.sh
 
 exit
