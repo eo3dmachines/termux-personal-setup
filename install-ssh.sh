@@ -35,5 +35,5 @@ echo "
      "
 echo
 
-cd ..
 rm -rf ~/termux-personal-setup
+cd ..
