@@ -35,5 +35,6 @@ echo "
      "
 echo
 
-rm -rf ~/termux-personal-setup
 cd ~
+rm -rf ~/termux-personal-setup
+
