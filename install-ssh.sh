@@ -38,4 +38,5 @@ echo
 sleep 3
 cd $HOME
 rm -rf ~/termux-personal-setup
+cd -
 exit
