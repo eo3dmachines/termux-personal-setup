@@ -34,4 +34,4 @@ echo "ssh <username>@<host> -p 8022"
 echo "ex. ssh u0_a254@192.168.100.8 -p 8022"
 echo
 echo
-cd .. && rm -rf termux-personal-setup
+cd .. && rm -rf ~/termux-personal-setup
