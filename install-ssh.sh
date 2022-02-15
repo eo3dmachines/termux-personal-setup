@@ -24,14 +24,16 @@ echo
 
 echo "*** Starting SSH server ***"
 sshd
+
+echo "
+     To stop ssh, enter this command:
+            pkill sshd
+
+     On your computer, SSH into your machine on port 8022 (default port):
+     ssh <username>@<host> -p 8022
+     ex. ssh u0_a254@192.168.100.8 -p 8022
+     "
 echo
 
-echo To stop ssh, enter this command:
-echo pkill sshd
-echo
-echo "On your computer, SSH into your machine on port 8022 (default port):"
-echo "ssh <username>@<host> -p 8022"
-echo "ex. ssh u0_a254@192.168.100.8 -p 8022"
-echo
-echo
-cd .. && rm -rf ~/termux-personal-setup
+cd ..
+rm -rf ~/termux-personal-setup
