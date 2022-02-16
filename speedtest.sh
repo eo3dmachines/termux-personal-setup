@@ -8,6 +8,7 @@ echo
 # Update pip
 echo Installing / Updating PIP
 python3 -m pip install --upgrade pip
+echo
 
 # speedtest-cli
 # https://github.com/sivel/speedtest-cli
