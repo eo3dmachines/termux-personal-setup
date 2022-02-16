@@ -7,7 +7,7 @@
 # Install OpenSSH:
 echo Installing OpenSSH
 echo
-pkg install openssh
+pkg install openssh -y
 echo
 
 # change password

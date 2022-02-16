@@ -4,7 +4,7 @@
 # https://wiki.termux.com/wiki/ZSH
 echo Installing zsh
 echo
-pkg install zsh git
+pkg install zsh git -y
 
 
 
@@ -51,5 +51,3 @@ plugins=(git adb command-not-found history zsh-completions zsh-autosuggestions z
 "
 
 
-zsh
-chsh -s zsh
