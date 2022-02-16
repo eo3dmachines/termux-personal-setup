@@ -1,5 +1,4 @@
  
- chmod +x *.sh
 ./update.sh
 ./ssh.sh
 ./speedtest.sh
