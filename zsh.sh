@@ -40,10 +40,6 @@ echo 4. zsh-syntax-highlighting "(place in last)"
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
 
-zsh
-chsh -s zsh
-
-
 # Set theme to powerlevel10k
 echo "
 Set theme by editing ~/.zshrc
@@ -53,3 +49,7 @@ Edit $HOME/.zshrc add the plugins you need.
 plugins=(git adb command-not-found history zsh-completions zsh-autosuggestions zsh-history-substring-search zsh-syntax-highlighting)
 
 "
+
+
+zsh
+chsh -s zsh
