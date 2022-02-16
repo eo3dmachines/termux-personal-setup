@@ -36,9 +36,20 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 echo 3. zsh-history-substring-search
 git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-history-substring-search
 
-echo 4. zsh-syntax-highlighting (place in last)
+echo 4. zsh-syntax-highlighting "(place in last)"
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
 
 zsh
 chsh -s zsh
+
+
+# Set theme to powerlevel10k
+echo "
+Set theme by editing ~/.zshrc
+ZSH_THEME="powerlevel10k/powerlevel10k"
+
+Edit $HOME/.zshrc add the plugins you need.
+plugins=(git adb command-not-found history zsh-completions zsh-autosuggestions zsh-history-substring-search zsh-syntax-highlighting)
+
+"
