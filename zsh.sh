@@ -39,9 +39,6 @@ git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM
 echo 4. zsh-syntax-highlighting "(place in last)"
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
-echo
-p10k configure
-echo
 
 # Set theme to powerlevel10k
 echo "
@@ -51,6 +48,11 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 Edit $HOME/.zshrc add the plugins you need.
 plugins=(git adb command-not-found history zsh-completions zsh-autosuggestions zsh-history-substring-search zsh-syntax-highlighting)
 
+Open ZSH
+zsh
+
+To configure powerline10k again.
+$ p10k configure
 "
 
 
