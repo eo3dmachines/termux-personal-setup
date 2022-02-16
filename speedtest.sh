@@ -7,12 +7,12 @@ echo
 
 # Update pip
 echo Installing / Updating PIP
-python3 -m pip install --upgrade pip -y
+python3 -m pip install --upgrade pip
 
 # speedtest-cli
 # https://github.com/sivel/speedtest-cli
 echo Installing Speedtest
-pip install speedtest-cli -y
+pip install speedtest-cli
 echo
 
 speedtest
