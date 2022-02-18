@@ -1,5 +1,5 @@
 
-
+#make file executable
 git update-index --chmod +x *.sh
 
 
@@ -20,9 +20,13 @@ git branch -f main 8264b6b
 git checkout main
 
 
-create new branch
-git checkout -b sample
+#switching branch or create new branch
+git checkout <branch-name>
 
 
-delete branch
-git checkout -d sample
+#create new branch
+git switch -c <new-branch-name>
+
+
+#delete branch
+git branch -d <branch-name>
