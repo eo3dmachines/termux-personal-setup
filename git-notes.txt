@@ -13,8 +13,16 @@ git push
 
 git pull
 
-: 1644972856:0;git revert 8264b6b
-: 1644972867:0;git checkout 8264b6b
-: 1644972957:0;git switch 8264b6b -f
-: 1644974744:0;git branch -f main 8264b6b
-: 1644974756:0;git checkout main
+git revert 8264b6b
+git checkout 8264b6b
+git switch 8264b6b -f
+git branch -f main 8264b6b
+git checkout main
+
+
+create new branch
+git checkout -b sample
+
+
+delete branch
+git checkout -d sample
