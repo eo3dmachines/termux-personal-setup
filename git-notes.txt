@@ -20,7 +20,10 @@ git branch -f main 8264b6b
 git checkout main
 
 
-#switching branch or create new branch
+#create new branch
+git checkout -b <branch-name>
+
+#switching branch
 git checkout <branch-name>
 
 
