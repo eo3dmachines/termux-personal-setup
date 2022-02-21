@@ -26,10 +26,8 @@ git checkout -b <branch-name>
 #switching branch
 git checkout <branch-name>
 
-
-#create new branch
-git switch -c <new-branch-name>
-
+#check braches
+git branch
 
 #delete branch
 git branch -d <branch-name>
