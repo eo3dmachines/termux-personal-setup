@@ -1,1 +1,1 @@
-pkg install android-tools
+pkg install android-tools -y
