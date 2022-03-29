@@ -4,7 +4,7 @@
 ./ssh.sh
 ./speedtest.sh
 ./zsh.sh
-
+./adb.sh
 
 
 
